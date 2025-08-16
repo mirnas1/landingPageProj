@@ -4,5 +4,155 @@
 }
 * {
     font-family: 'Roboto';
+    margin: 0px;
 }
 
+
+.header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    padding: 10px 108px;
+}
+
+#hero-p {
+    color: #D3D2C9;
+    margin: 10px 0px;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 500;
+    padding: 6px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+.hero-left {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 19px;
+    display: flex;
+    gap: 13px;
+}
+
+.andor-logo {
+    width: 100px;
+    height: auto;
+    margin-right: auto;
+}
+
+.hero {
+    padding: 30px 108px 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.img-placeholder {
+    background-color: #6D747D;
+    height: 150px;
+    
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#random-info {
+    text-align: center;
+    color: #1F2937;
+    padding: 40px;
+}
+
+
+
+.subtext {
+    font-size: 14px;
+}
+
+.card-and-text {
+    text-align: center;
+    color: #717171;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 80px;
+}
+
+.card {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight:200;
+}
+
+.author {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+.ad {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px;
+    border-radius: 5px;
+    margin: 80px 150px;
+    color: white;
+}
+
+
+.call-to-act {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.call-to-btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 7px;
+    padding: 0px 35px;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 35px;
+}
